@@ -17,7 +17,7 @@
 <form action="/fisika/suhu-dan-kalor/kalor/perpindahan-kalor/quiz" method="post">
     @csrf
     <ol>
-        <li>
+        <li align="justify">
             Permukaan dinding bagian terluar memiliki temperatur sebesar – 20 ºC dan bagian dalam 20 ºC. Jika dinding mengalirkan kalor sebanyak 110 kkal tiap 1 m<sup>2</sup> tiap jam, koefisien konduksi termal bahan dinding dengan tebal 40 cm adalah sebesar... 
             <div class="flex items-center mb-1">
                 <input id="default-radio-1" type="radio" value="A" name="q1" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
@@ -40,7 +40,7 @@
                 <label for="default-radio-2" class="ms-2 text-sm font-base text-gray-900 dark:text-gray-300">E.	5112 W/mK</label>
             </div>
         </li>
-        <li>
+        <li align="justify">
             Sebuah lampu busur memancarkan cahaya pada suhu 127 ºC. Maka, energi radiasi tiap detik tiap m<sup>2</sup> adalah sebesar... (σ = 5,5.10<sup>-8</sup>)
             <div class="flex items-center mb-1">
                 <input id="default-radio-1" type="radio" value="A" name="q2" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
@@ -63,7 +63,7 @@
                 <label for="default-radio-2" class="ms-2 text-sm font-base text-gray-900 dark:text-gray-300">E.	1542 watt/ m<sup>2</sup></label>
             </div>
         </li>
-        <li>
+        <li align="justify">
             Suatu fluida dengan koefisien konveksi termal 0,01 kal/msºC memiliki luas penampang aliran 20 cm2. Jika fluida tersebut mengalir dari dinding yang bersuhu 100 ºC ke dinding lainnya yang bersuhu 20 ºC dan kedua dinding sejajar, besar kalor yang dirambatkan adalah sebesar...
             <div class="flex items-center mb-1">
                 <input id="default-radio-1" type="radio" value="A" name="q3" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">

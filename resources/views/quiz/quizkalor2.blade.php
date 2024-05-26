@@ -17,7 +17,7 @@
 <form action="/fisika/suhu-dan-kalor/kalor/pemuaian-zat/quiz" method="post">
     @csrf
     <ol>
-        <li>
+        <li align="justify">
             Sebatang rel besi panjangnya 1 m pada 20 ºC. Koefisien muai panjang besi 12.10<sup>-6</sup>/ ºC. Celah antar rel agar aman jika suhu maksimum rel dianggap sampai 70 ºC adalah sebesar ... 
             <div class="flex items-center mb-1">
                 <input id="default-radio-1" type="radio" value="A" name="q1" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
@@ -40,8 +40,8 @@
                 <label for="default-radio-2" class="ms-2 text-sm font-base text-gray-900 dark:text-gray-300">E.	3,2 mm</label>
             </div>
         </li>
-        <li>
-            Suatu plat kaca memiliki luas 1000 cm2 pada suhu 20 °C. Jika diketahui koefisien muai kaca adalah sebesar 9.10<sup>-6</sup>/ °C, maka luas kaca ketika suhunya mencapai 70 °C adalah...
+        <li align="justify">
+            Suatu plat kaca memiliki luas 1000 cm<sup>2</sup> pada suhu 20 °C. Jika diketahui koefisien muai kaca adalah sebesar 9.10<sup>-6</sup>/ °C, maka luas kaca ketika suhunya mencapai 70 °C adalah...
             <div class="flex items-center mb-1">
                 <input id="default-radio-1" type="radio" value="A" name="q2" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                 <label for="default-radio-1" class="ms-2 text-sm font-base text-gray-900 dark:text-gray-300">A.	1000,15 cm<sup>2</sup></label>
@@ -63,7 +63,7 @@
                 <label for="default-radio-2" class="ms-2 text-sm font-base text-gray-900 dark:text-gray-300">E.	1000,75 cm<sup>2</sup></label>
             </div>
         </li>
-        <li>
+        <li align="justify">
             Sebatang rel besi yang panjangnya 1 m memiliki suhu sebesar 20°C. Jika koefisien muai panjang besi dianggap 10<sup>-5</sup>/°C, maka besar celah antar rel agar aman jika suhu maksimum rel dianggap mencapai 80°C adalah ...mm
             <div class="flex items-center mb-1">
                 <input id="default-radio-1" type="radio" value="A" name="q3" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">

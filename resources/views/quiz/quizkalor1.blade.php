@@ -17,7 +17,7 @@
 <form action="/fisika/suhu-dan-kalor/kalor/pengaruh-kalor-pada-zat/quiz" method="post">
     @csrf
     <ol>
-        <li>
+        <li align="justify">
             200 gram air bersuhu 10 °C dicampur dengan 100 gram air bersuhu t°C. Jika diketahui temperatur akhir campuran sebesar 30 °C, maka nilai t adalah ... °C 
             <div class="flex items-center mb-1">
                 <input id="default-radio-1" type="radio" value="A" name="q1" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
@@ -40,7 +40,7 @@
                 <label for="default-radio-2" class="ms-2 text-sm font-base text-gray-900 dark:text-gray-300">E.	100</label>
             </div>
         </li>
-        <li>
+        <li align="justify">
             Es bermassa A gram dan bersuhu -10 ºC di campur dengan B gram air bersuhu 60 ºC. Kalor jenis es 0,5 kal/g ºC, kalor lebur es 80 kal/g, dan kalor jenis air 1 kal/g ºC. Pada keadaan kesetimbangan berat es sama dengan berat air. Perbandingan A dan B adalah ...
             <div class="flex items-center mb-1">
                 <input id="default-radio-1" type="radio" value="A" name="q2" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
@@ -63,7 +63,7 @@
                 <label for="default-radio-2" class="ms-2 text-sm font-base text-gray-900 dark:text-gray-300">E. 12:5</label>
             </div>
         </li>
-        <li>
+        <li align="justify">
             Dalam kalorimeter terdapat 230 gram air dari 15 °C. Ke dalamnya ditambahkan 360 gram air dari 65 °C. Jika temperatur akhir 45 °C, kapasitas kalor kalorimeter adalah...
             <div class="flex items-center mb-1">
                 <input id="default-radio-1" type="radio" value="A" name="q3" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">

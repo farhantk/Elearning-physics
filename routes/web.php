@@ -8,9 +8,9 @@ use App\Http\Controllers\countController;
 use Illuminate\Support\Facades\Route;
 
 
-Route::get('/', function () {
-    return redirect('/masuk');
-});
+Route::get('/', [studyController::class, 'landing'])
+    ->middleware(['auth', 'verified', 'student'])
+    ->name('landing');
 
 
 Route::middleware('auth')->group(function () {
@@ -37,6 +37,9 @@ Route::get('/fisika', [studyController::class, 'index'])
 Route::get('/fisika/suhu-dan-kalor/glosarium', [studyController::class, 'glosarium'])
     ->middleware(['auth', 'verified', 'student'])
     ->name('glosarium');
+Route::get('/fisika/suhu-dan-kalor/daftarpustaka', [studyController::class, 'daftarpustaka'])
+    ->middleware(['auth', 'verified', 'student'])
+    ->name('daftarpustaka');
 
 Route::get('/fisika/suhu-dan-kalor/suhu/skala-suhu', [studyController::class, 'skalasuhu'])
     ->middleware(['auth', 'verified', 'student'])
@@ -66,6 +69,9 @@ Route::post('/fisika/suhu-dan-kalor/kalor/pengaruh-kalor-pada-zat/quiz', [studyC
 Route::get('/fisika/suhu-dan-kalor/kalor/pemuaian-zat', [studyController::class, 'pemuaianzat'])
     ->middleware(['auth', 'verified', 'student'])
     ->name('pemuaianzat');
+Route::get('/fisika/suhu-dan-kalor/kalor/pemuaian-zat/contohsoal', [studyController::class, 'contohsoalpemuaianzat'])
+    ->middleware(['auth', 'verified', 'student'])
+    ->name('contohsoalpemuaianzat');
 
 Route::get('/fisika/suhu-dan-kalor/kalor/pemuaian-zat/quiz', [studyController::class, 'quizkalor2'])
     ->middleware(['auth', 'verified', 'student'])
@@ -86,8 +92,11 @@ Route::post('/fisika/suhu-dan-kalor/kalor/perpindahan-kalor/quiz', [studyControl
 Route::get('/fisika/suhu-dan-kalor/evaluasi', [studyController::class, 'evaluasi'])
     ->middleware(['auth', 'verified', 'student'])
     ->name('evaluasi');
-Route::post('/fisika/suhu-dan-kalor/evaluasi', [studyController::class, 'evaluasisubmit']);
-
+    Route::post('/fisika/suhu-dan-kalor/evaluasi', [studyController::class, 'evaluasisubmit']);
+    
+Route::get('/fisika/suhu-dan-kalor/rangkuman', [studyController::class, 'rangkuman'])
+    ->middleware(['auth', 'verified', 'student'])
+    ->name('rangkuman');
 Route::post('/plusmiles1', [countController::class, 'plusmiles1']);
 Route::post('/plusmiles2', [countController::class, 'plusmiles2']);
 Route::post('/plusmiles3', [countController::class, 'plusmiles3']);
@@ -97,10 +106,12 @@ Route::post('/plusmiles6', [countController::class, 'plusmiles6']);
 Route::post('/plusmiles7', [countController::class, 'plusmiles7']);
 Route::post('/plusmiles8', [countController::class, 'plusmiles8']);
 Route::post('/plusmiles9', [countController::class, 'plusmiles9']);
+Route::post('/plusmiles91', [countController::class, 'plusmiles91']);
 Route::post('/plusmiles10', [countController::class, 'plusmiles10']);
 Route::post('/plusmiles11', [countController::class, 'plusmiles11']);
 Route::post('/plusmiles12', [countController::class, 'plusmiles12']);
 Route::post('/plusmiles13', [countController::class, 'plusmiles13']);
+Route::post('/plusmiles14', [countController::class, 'plusmiles14']);
 
 Route::get('/dashboard/xiimipa1', [dashboardController::class, 'xiimipa1'])
     ->middleware(['auth', 'verified', 'lecturer'])

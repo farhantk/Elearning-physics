@@ -17,7 +17,7 @@
 <form action="/fisika/suhu-dan-kalor/evaluasi" method="post">
     @csrf
     <ol>
-        <li>
+        <li align="justify">
             Sebuah termometer dalam skala bebas ºX memiliki titik beku air pada -20ºX dan titik didih air 80ºX. pada saat termometer tersebut terbaca 15ºX, maka pada termometer skala Celcius terbaca ...ºC
             <div class="flex items-center mb-1">
                 <input id="default-radio-1" type="radio" value="A" name="q1" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
@@ -40,7 +40,7 @@
                 <label for="default-radio-2" class="ms-2 text-sm font-base text-gray-900 dark:text-gray-300">E.	75</label>
             </div>
         </li>
-        <li>
+        <li align="justify">
             Sebuah filamen lampu listrik yang sedang menyala memiliki suhu sebesar 2.925 K. Jika dinyatakan dalam skala Reamur, maka suhu pada filamen lampu tersebut adalah ...ºR
             <div class="flex items-center mb-1">
                 <input id="default-radio-1" type="radio" value="A" name="q2" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
@@ -63,7 +63,7 @@
                 <label for="default-radio-2" class="ms-2 text-sm font-base text-gray-900 dark:text-gray-300">E.	5.225</label>
             </div>
         </li>
-        <li>
+        <li align="justify">
             Pernyataan di bawah ini yang benar adalah ...
             <div class="flex items-center mb-1">
                 <input id="default-radio-1" type="radio" value="A" name="q3" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
@@ -86,7 +86,7 @@
                 <label for="default-radio-2" class="ms-2 text-sm font-base text-gray-900 dark:text-gray-300">E.	Benda kehilangan kalor, artinya suhu benda naik</label>
             </div>
         </li>
-        <li>
+        <li align="justify">
             Bila kalor jenis zat cair = 4.200 J/kgºC, maka untuk menaikkan 0,5 kg zat cair dengan suhu 38ºC menjadi 48ºC diperlukan kalor sebesar ...kJ
             <div class="flex items-center mb-1">
                 <input id="default-radio-1" type="radio" value="A" name="q4" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
@@ -109,7 +109,7 @@
                 <label for="default-radio-2" class="ms-2 text-sm font-base text-gray-900 dark:text-gray-300">E.	210</label>
             </div>
         </li>
-        <li>
+        <li align="justify">
             Apabila sebuah zat memiliki kalor lebur 100 kal/g, maka kalor yang dibutuhkan untuk meleburkan 15 kg zat tersebut yaitu sebesar ...J (1 kal = 4,2 J)
             <div class="flex items-center mb-1">
                 <input id="default-radio-1" type="radio" value="A" name="q5" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
@@ -132,7 +132,7 @@
                 <label for="default-radio-2" class="ms-2 text-sm font-base text-gray-900 dark:text-gray-300">E.	6,3 x 10<sup>6</sup></label>
             </div>
         </li>
-        <li>
+        <li align="justify">
             Kalor yang diperlukan untuk meleburkan 100 gram es dari suhu -8ºC menjadi air dengan suhu 8ºC adalah ...J (kalor jenis es = 2100 J/kgK, kalor jenis air = 4200 J/kgK, kalor lebur es = 336 kJ/kg)
             <div class="flex items-center mb-1">
                 <input id="default-radio-1" type="radio" value="A" name="q6" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
@@ -155,7 +155,7 @@
                 <label for="default-radio-2" class="ms-2 text-sm font-base text-gray-900 dark:text-gray-300">E.	45.750</label>
             </div>
         </li>
-        <li>
+        <li align="justify">
             Sepotong logam 50 g bersuhu 90ºC dicelupkan dalam air 150 g bersuhu 13ºC. jika suhu campuran 15ºC, kalor jenis air = 4200 J/kgK, maka kalor jenis logam tersebut adalah ...kal/gºC (1 kal = 4,2 J)
             <div class="flex items-center mb-1">
                 <input id="default-radio-1" type="radio" value="A" name="q7" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
@@ -178,7 +178,7 @@
                 <label for="default-radio-2" class="ms-2 text-sm font-base text-gray-900 dark:text-gray-300">E.	0,24</label>
             </div>
         </li>
-        <li>
+        <li align="justify">
             Sebanyak 0,1 kg zat cair panas dituangkan dalam bejana logam yang bermassa sama. Jika suhu akhir telah tercapai, maka suhu zat cair turun sebesar 50ºC dan suhu bejana naik menjadi 60ºC. berdasarkan data di atas, diperoleh perbandingan kalor jenis zat cair dengan kalor jenis logam sebesar
             <div class="flex items-center mb-1">
                 <input id="default-radio-1" type="radio" value="A" name="q8" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
@@ -201,7 +201,7 @@
                 <label for="default-radio-2" class="ms-2 text-sm font-base text-gray-900 dark:text-gray-300">E.	6 : 5</label>
             </div>
         </li>
-        <li>
+        <li align="justify">
             Ketel pemanas bermassa 10 kg dan berdaya 200 W diisi air sebanyak 2 kg. jika ketel digunakan selama 5 menit dan ketel beserta isinya mengalami kenaikan suhu 6 K, maka kalor jenis ketel adalah ...J/kgK
             <div class="flex items-center mb-1">
                 <input id="default-radio-1" type="radio" value="A" name="q9" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
@@ -224,7 +224,7 @@
                 <label for="default-radio-2" class="ms-2 text-sm font-base text-gray-900 dark:text-gray-300">E.	6000</label>
             </div>
         </li>
-        <li>
+        <li align="justify">
             Kapasitas kalor air bermassa 200 gram adalah ...J/K (kalor jenis air = 4200 J/kgK)
             <div class="flex items-center mb-1">
                 <input id="default-radio-1" type="radio" value="A" name="q10" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
@@ -247,7 +247,7 @@
                 <label for="default-radio-2" class="ms-2 text-sm font-base text-gray-900 dark:text-gray-300">E.	840</label>
             </div>
         </li>
-        <li>
+        <li align="justify">
             Pada percobaan pertama, kalorimeter mula-mula diisi air sebanyak 190 gram dengan suhu 27ºC, kemudian suhu air naik menjadi 30ºC setelah dimasukkan 200 gram tembaga bersuhu 65ºC.
             <br>Pada percobaan kedua, kalori meter diisi air 95 gram dengan suhu 27ºC, kemudian suhu air naik menjadi 32ºC setelah dmasukkan 200 gram tembaga bersuhu 65ºC.
             Kapasitas kalor kalorimeter tersebut adalah ...kal/K
@@ -273,7 +273,7 @@
                 <label for="default-radio-2" class="ms-2 text-sm font-base text-gray-900 dark:text-gray-300">E.	48,75</label>
             </div>
         </li>
-        <li>
+        <li align="justify">
             Es sebanyak x gram pada suhu -10ºC diberi kalor 1500 kal. Bila suhu akhir 15ºC, kalor jenis es = 0,5 kal/gºC, kalor jenis air = 1 kal/gºC, kalor lebur es = 80 kal/g, maka nilai x = ...g
 
             <div class="flex items-center mb-1">
@@ -297,7 +297,7 @@
                 <label for="default-radio-2" class="ms-2 text-sm font-base text-gray-900 dark:text-gray-300">E.	40</label>
             </div>
         </li>
-        <li>
+        <li align="justify">
             Perhatikan grafik berikut!<br>
             <figure class="h-auto max-w-xs ">
                 <img class=" rounded-lg" src="{{URL::asset('/image/eval1.jpg')}}" alt="image description">
@@ -324,7 +324,7 @@
                 <label for="default-radio-2" class="ms-2 text-sm font-base text-gray-900 dark:text-gray-300">E.	8,35 x 10<sup>-2</sup></label>
             </div>
         </li>
-        <li>
+        <li align="justify">
             Sebanyak 100 gram es pada suhu -10ºC diberi kalor sebesar 8500 kalori. Bila kalor lebur es 80 kal/g, maka keadaan akhir es adalah ...
             <div class="flex items-center mb-1">
                 <input id="default-radio-1" type="radio" value="A" name="q14" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
@@ -347,7 +347,7 @@
                 <label for="default-radio-2" class="ms-2 text-sm font-base text-gray-900 dark:text-gray-300">E.	semua es melebur, suhu akhir < 0ºC</label>
             </div>
         </li>
-        <li>
+        <li align="justify">
             Sebanyak x gram es -20ºC dicampur dengan y gram air AºC. Ternyata 75% es melebur. Jika banyaknya air akhir 7 kali massa es sisa, maka A adalah ...ºC
             <div class="flex items-center mb-1">
                 <input id="default-radio-1" type="radio" value="A" name="q15" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
@@ -370,7 +370,7 @@
                 <label for="default-radio-2" class="ms-2 text-sm font-base text-gray-900 dark:text-gray-300">E.	35</label>
             </div>
         </li>
-        <li>
+        <li align="justify">
             Sepotong es yang massanya 1 kg suhunya -10ºC dimasukkan ke dalam 2 kg air bersuhu 20ºC. Jika diketahui kalor jenis es = 0,5 kal/gºC, kalor jenis air = 1 kal/gºC, dan kalor lebur es = 80 kal/g (1 kal = 4,2 J) dapat disimpulkan bahwa ...
             <div class="flex items-center mb-1">
                 <input id="default-radio-1" type="radio" value="A" name="q16" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
@@ -393,7 +393,7 @@
                 <label for="default-radio-2" class="ms-2 text-sm font-base text-gray-900 dark:text-gray-300">E.	Suhu akhir 20ºC</label>
             </div>
         </li>
-        <li>
+        <li align="justify">
             Sebanyak 100 gram air pada suhu 20ºC hendak dicampur dengan 200 gram air suhu 50ºC. Maka, suhu campuran air tersebut adalah ...ºC
             <div class="flex items-center mb-1">
                 <input id="default-radio-1" type="radio" value="A" name="q17" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
@@ -416,7 +416,7 @@
                 <label for="default-radio-2" class="ms-2 text-sm font-base text-gray-900 dark:text-gray-300">E.	60</label>
             </div>
         </li>
-        <li>
+        <li align="justify">
             Kalor lebur es = 80 kal/g, kalor embun air = 540 kal/g, dan kalor jenis air 1 kal/gºC. jika 10 kg es 0ºC ditambahkan 2 kg uap air 100ºC, maka temperatur akhir campuran adalah ...ºC
             <div class="flex items-center mb-1">
                 <input id="default-radio-1" type="radio" value="A" name="q18" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
@@ -439,7 +439,7 @@
                 <label for="default-radio-2" class="ms-2 text-sm font-base text-gray-900 dark:text-gray-300">E.	40</label>
             </div>
         </li>
-        <li>
+        <li align="justify">
             Sebatang rel besi yang panjangnya 1 m memiliki suhu sebesar 20ºC. Jika koefisien muai panjang besi dianggap 10<sup>-5</sup>/ºC, maka besar celah antar rel agar aman jika suhu maksimum rel dianggap mencapai 80ºC adalah ...mm
             <div class="flex items-center mb-1">
                 <input id="default-radio-1" type="radio" value="A" name="q19" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
@@ -462,7 +462,7 @@
                 <label for="default-radio-2" class="ms-2 text-sm font-base text-gray-900 dark:text-gray-300">E.	1,0</label>
             </div>
         </li>
-        <li>
+        <li align="justify">
             Suhu seseorang yang demam adalah 40ºC. Jika luas permukaan tubuhnya kira-kira 1,5 m<sup>2</sup> dan ia berada di dalam kamar yang suhunya 25ºC, maka laju kalor yang dilepaskan tubuh orang tersebut melalui konveksi adalah...J/s (koefisien konveksi h = 7,0 W/m2K
             <div class="flex items-center mb-1">
                 <input id="default-radio-1" type="radio" value="A" name="q20" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
@@ -491,12 +491,21 @@
 
 <div class="flex justify-between py-6">
    <!-- Previous Button -->
-   <a href="{{ route('termometer') }}" class="flex items-center justify-center px-4 h-10 me-3 text-base font-medium text-gray-500 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
+   <a href="{{ route('quizkalor3') }}" class="flex items-center justify-center px-4 h-10 me-3 text-base font-medium text-gray-500 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
        <svg class="w-3.5 h-3.5 me-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5H1m0 0 4 4M1 5l4-4"/>
        </svg>
        Sebelumnya
    </a>
+   <form action="/plusmiles14" method="POST">
+    @csrf
+    <button type="submit" class="flex items-center justify-center px-4 h-10 text-base font-medium text-white bg-blue-700 border border-gray-300 rounded-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
+      Selanjutnya
+      <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+      </svg>
+    </button>
+ </form>
 
 
 </div>

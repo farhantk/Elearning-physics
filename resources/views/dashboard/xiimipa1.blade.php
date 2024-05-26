@@ -89,6 +89,7 @@
                 <table id="example1" class="table-auto w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
                     <thead >
                         <tr>
+                            <th class="px-4 py-2">No</th>
                             <th class="px-4 py-2">Name</th>
                             <th class="px-4 py-2">No. of Attempt</th>
                             <th class="px-4 py-2">Start Attempt</th>
@@ -124,6 +125,7 @@
                 <table id="example2" class="table-auto w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
                     <thead >
                         <tr>
+                            <th class="px-4 py-2">No</th>
                             <th class="px-4 py-2">Name</th>
                             <th class="px-4 py-2">No. of Attempt</th>
                             <th class="px-4 py-2">Start Attempt</th>
@@ -159,6 +161,7 @@
                 <table id="example3" class="table-auto w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
                     <thead >
                         <tr>
+                            <th class="px-4 py-2">No</th>
                             <th class="px-4 py-2">Name</th>
                             <th class="px-4 py-2">No. of Attempt</th>
                             <th class="px-4 py-2">Start Attempt</th>
@@ -194,6 +197,7 @@
                 <table id="example4" class="table-auto w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
                     <thead >
                         <tr>
+                            <th class="px-4 py-2">No</th>
                             <th class="px-4 py-2">Name</th>
                             <th class="px-4 py-2">No. of Attempt</th>
                             <th class="px-4 py-2">Start Attempt</th>

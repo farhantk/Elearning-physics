@@ -98,6 +98,14 @@ class countController extends Controller
             $user->miles = $user->miles + 1;
             $user->save();
         }
+        return redirect()->route('contohsoalpemuaianzat');
+    }
+    public function plusmiles91(){
+        $user = User::find(Auth::user()->id);
+        if($user->miles == 10){
+            $user->miles = $user->miles + 1;
+            $user->save();
+        }
         return redirect()->route('quizkalor2');
     }
     public function plusmiles10(){
@@ -108,7 +116,7 @@ class countController extends Controller
         }else{
             $maxgradeForQuiz1 = -1; 
         }
-        if($user->miles == 10){
+        if($user->miles == 11){
             if($maxgradeForQuiz1 > 75){
 
                 $user->miles = $user->miles + 1;
@@ -119,7 +127,7 @@ class countController extends Controller
     }
     public function plusmiles11(){
         $user = User::find(Auth::user()->id);
-        if($user->miles == 11){
+        if($user->miles == 12){
             $user->miles = $user->miles + 1;
             $user->save();
         }
@@ -127,7 +135,7 @@ class countController extends Controller
     }
     public function plusmiles12(){
         $user = User::find(Auth::user()->id);
-        if($user->miles == 12){
+        if($user->miles == 13){
             $user->miles = $user->miles + 1;
             $user->save();
         }
@@ -141,7 +149,7 @@ class countController extends Controller
         }else{
             $maxgradeForQuiz1 = -1; 
         }
-        if($user->miles == 13){
+        if($user->miles == 14){
             if($maxgradeForQuiz1 > 75){
 
                 $user->miles = $user->miles + 1;
@@ -149,5 +157,13 @@ class countController extends Controller
             }
         }
         return redirect()->route('evaluasi');
+    }
+    public function plusmiles14(){
+        $user = User::find(Auth::user()->id);
+        if($user->miles == 15){
+            $user->miles = $user->miles + 1;
+            $user->save();
+        }
+        return redirect()->route('rangkuman');
     }
 }

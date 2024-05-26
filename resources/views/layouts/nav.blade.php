@@ -1,6 +1,6 @@
 
 
-<nav class="fixed top-0 z-50 w-full bg-blue border-b border-gray-200 dark:bg-gray-800 dark:border-gray-700">
+<nav class="fixed top-0 z-50 w-full bg-primary border-b border-gray-200 dark:bg-gray-800 dark:border-gray-700">
     <div class="px-3 py-3 lg:px-5 lg:pl-3">
       <div class="flex items-center justify-between">
         <div class="flex items-center justify-start rtl:justify-end">
@@ -11,24 +11,23 @@
               </svg>
            </button>
             <a href="/" class="flex ms-2 md:me-24">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Logo_Kemendikbud.svg" class="me-3 w-12 h-12" alt="Kemendikbud Logo" />
-            <span class="self-center text-xl font-semibold sm:text-2xl whitespace-nowrap dark:text-white">E-Learning</span>
+                <img src="{{URL::asset('/image/1.1.png')}}" class="me-3 h-12" alt="Logo" />
             </a>
         </div>
         <div class="flex items-center content-center">
             <div class="flex items-center ms-3">
                 <div class="self-center text-xl me-3 font-medium" role="none">
-                    <p class="text-base font-medium text-gray-900 dark:text-white" role="none">
+                    <p class="text-base text-white font-medium text-gray-900 dark:text-white" role="none">
                     {{ $name }}
                     </p>
-                    <p class="text-sm font-medium text-gray-900 truncate dark:text-gray-300" role="none">
+                    <p class="text-sm text-white font-medium text-gray-900 truncate dark:text-gray-300" role="none">
                     {{ $class }}
                     </p>
                 </div>
                 <div>
                     <button type="button" class="flex text-sm bg-gray-800 rounded-full focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" aria-expanded="false" data-dropdown-toggle="dropdown-user">
                         <span class="sr-only">Open user menu</span>
-                        <img class="w-10 h-10 rounded-full" src="https://flowbite.com/docs/images/people/profile-picture-5.jpg" alt="user photo">
+                        <img class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFGr0CMl8ZYm0qOtv1h51bmUxSymKkpoAjlFSnp8Eq0w&s" alt="Bordered avatar">
                     </button>
                 </div>
                 <div class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded shadow dark:bg-gray-700 dark:divide-gray-600" id="dropdown-user">

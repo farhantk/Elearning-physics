@@ -22,7 +22,7 @@ class authController extends Controller
         if (Auth::attempt($validated)) {
             $request->session()->regenerate();
  
-            return redirect()->intended('/fisika');
+            return redirect()->intended('/');
         }
 
         return back()->with('loginError', 'Gagal masuk! Email atau kata sandi salah');

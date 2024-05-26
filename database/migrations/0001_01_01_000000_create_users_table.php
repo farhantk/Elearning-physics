@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->string('role')->default('student');
             $table->string('class');
-            $table->integer('miles')->default(1);
+            $table->integer('miles')->default(2);
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->rememberToken();

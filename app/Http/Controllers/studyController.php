@@ -45,7 +45,7 @@ class studyController extends Controller
         }else{
             $maxgradeForQuiz5 = -1; 
         }
-
+        $user = User::find(Auth::user()->id);
         return view('lecture.timeline', [
             'title' => 'Suhu & Kalor',
             'name' => Auth::user()->name,
@@ -57,7 +57,51 @@ class studyController extends Controller
             'grade3' => $maxgradeForQuiz3,
             'grade4' => $maxgradeForQuiz4,
             'grade5' => $maxgradeForQuiz5,
+            'user' => $user,
         ]);
+    }
+    public function landing(){
+        $user = User::find(Auth::user()->id);
+        $miles = $user->miles;
+        return view('lecture.landing', [
+            'title' => 'Suhu & Kalor',
+            'name' => Auth::user()->name,
+            'class' => Auth::user()->class,
+            'email' => Auth::user()->email,
+            'miles' => $miles,
+        ]);
+    }
+    public function contohsoalpemuaianzat(){
+        $user = User::find(Auth::user()->id);
+        $miles = $user->miles;
+        if($miles < 10){
+            return redirect()->route('main');
+        }else{
+            return view('lecture.contohsoalzat', [
+                'title' => 'Suhu & Kalor',
+                'name' => Auth::user()->name,
+                'class' => Auth::user()->class,
+                'email' => Auth::user()->email,
+                'miles' => $miles,
+                'user' => $user,
+            ]);
+        }
+    }
+    public function rangkuman(){
+        $user = User::find(Auth::user()->id);
+        $miles = $user->miles;
+        if($miles < 16){
+            return redirect()->route('main');
+        }else{
+            return view('lecture.rangkuman', [
+                'title' => 'Suhu & Kalor',
+                'name' => Auth::user()->name,
+                'class' => Auth::user()->class,
+                'email' => Auth::user()->email,
+                'miles' => $miles,
+                'user' => $user,
+            ]);
+        }
     }
     public function glosarium(){
         $user = User::find(Auth::user()->id);
@@ -68,6 +112,19 @@ class studyController extends Controller
             'class' => Auth::user()->class,
             'email' => Auth::user()->email,
             'miles' => $miles,
+            'user' => $user,
+        ]);
+    }
+    public function daftarpustaka(){
+        $user = User::find(Auth::user()->id);
+        $miles = $user->miles;
+        return view('lecture.daftarpustaka', [
+            'title' => 'Suhu & Kalor',
+            'name' => Auth::user()->name,
+            'class' => Auth::user()->class,
+            'email' => Auth::user()->email,
+            'miles' => $miles,
+            'user' => $user,
         ]);
     }
     public function skalasuhu(){
@@ -82,6 +139,7 @@ class studyController extends Controller
                 'class' => Auth::user()->class,
                 'email' => Auth::user()->email,
                 'miles' => $miles,
+                'user' => $user,
             ]);
         }
     }
@@ -97,6 +155,7 @@ class studyController extends Controller
                 'class' => Auth::user()->class,
                 'email' => Auth::user()->email,
                 'miles' => $miles,
+                'user' => $user,
             ]);
         }
     }
@@ -112,6 +171,7 @@ class studyController extends Controller
                 'class' => Auth::user()->class,
                 'email' => Auth::user()->email,
                 'miles' => $miles,
+                'user' => $user,
             ]);
         }
     }
@@ -127,6 +187,7 @@ class studyController extends Controller
                 'class' => Auth::user()->class,
                 'email' => Auth::user()->email,
                 'miles' => $miles,
+                'user' => $user,
             ]);
         }
     }
@@ -138,12 +199,13 @@ class studyController extends Controller
             'class' => Auth::user()->class,
             'email' => Auth::user()->email,
             'miles' => $miles,
+            'user' => $user,
         ]);
     }
     public function contohsoalkalor3(){
         $user = User::find(Auth::user()->id);
         $miles = $user->miles;
-        if($miles < 12){
+        if($miles < 13){
             return redirect()->route('main');
         }else{
             return view('lecture.contohsoalkalor3', [
@@ -152,6 +214,7 @@ class studyController extends Controller
                 'class' => Auth::user()->class,
                 'email' => Auth::user()->email,
                 'miles' => $miles,
+                'user' => $user,
             ]);
         }
     }
@@ -167,6 +230,7 @@ class studyController extends Controller
                 'class' => Auth::user()->class,
                 'email' => Auth::user()->email,
                 'miles' => $miles,
+                'user' => $user,
             ]);
         }
     }
@@ -182,13 +246,14 @@ class studyController extends Controller
                 'class' => Auth::user()->class,
                 'email' => Auth::user()->email,
                 'miles' => $miles,
+                'user' => $user,
             ]);
         }
     }
     public function perpindahankalor(){
         $user = User::find(Auth::user()->id);
         $miles = $user->miles;
-        if($miles < 11){
+        if($miles < 12){
             return redirect()->route('main');
         }else{
             return view('lecture.perpindahankalor', [
@@ -197,6 +262,7 @@ class studyController extends Controller
                 'class' => Auth::user()->class,
                 'email' => Auth::user()->email,
                 'miles' => $miles,
+                'user' => $user,
             ]);
         }
     }
@@ -225,6 +291,7 @@ class studyController extends Controller
                 'email' => Auth::user()->email,
                 'grade' => $maxgradeForQuiz1,
                 'miles' => $miles,
+                'user' => $user,
             ]);
         };
 
@@ -281,6 +348,7 @@ class studyController extends Controller
                 'email' => Auth::user()->email,
                 'grade' => $maxgradeForQuiz1,
                 'miles' => $miles,
+                'user' => $user,
             ]);
         }
     }
@@ -337,6 +405,7 @@ class studyController extends Controller
                 'email' => Auth::user()->email,
                 'grade' => $maxgradeForQuiz1,
                 'miles' => $miles,
+                'user' => $user,
             ]);
         }
     }
@@ -375,7 +444,7 @@ class studyController extends Controller
     public function quizkalor3(){
         $user = User::find(Auth::user()->id);
         $miles = $user->miles;
-        if($miles < 13){
+        if($miles < 14){
             return redirect()->route('main');
         }else{
             $maxgradeForQuiz1 = null;
@@ -393,6 +462,7 @@ class studyController extends Controller
                 'email' => Auth::user()->email,
                 'grade' => $maxgradeForQuiz1,
                 'miles' => $miles,
+                'user' => $user,
             ]);
         }
     }
@@ -431,7 +501,7 @@ class studyController extends Controller
     public function evaluasi(){
         $user = User::find(Auth::user()->id);
         $miles = $user->miles;
-        if($miles < 14){
+        if($miles < 15){
             return redirect()->route('main');
         }else{
             $maxgradeForQuiz1 = null;
@@ -449,6 +519,7 @@ class studyController extends Controller
                 'email' => Auth::user()->email,
                 'grade' => $maxgradeForQuiz1,
                 'miles' => $miles,
+                'user' => $user,
             ]);
         }
     }
