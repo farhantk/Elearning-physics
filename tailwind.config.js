@@ -10,10 +10,8 @@ export default {
         "./resources/**/*.blade.php",
         "./resources/**/*.js",
         "./resources/**/*.vue",
-        "./node_modules/flowbite/**/*.js",
-        "./src/**/*.{html,js,jsx,ts,tsx}",
-        "./components/**/*.{js,ts,jsx,tsx}",
-        "./Components/**/*.{js,ts,jsx,tsx}",
+        "./resources/**/*.css",
+        "./node_modules/flowbite/**/*.js"
     ],
 
     theme: {
@@ -44,6 +42,8 @@ export default {
         require('flowbite/plugin'),
         require('flowbite-typography'),
         require('@tailwindcss/aspect-ratio'),
+        "postcss-import",
+        "tailwindcss",
+        "autoprefixer"
     ],
-    enabled: process.env.NODE_ENV === "production",
 };
